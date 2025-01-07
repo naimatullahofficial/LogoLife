@@ -1,0 +1,46 @@
+
+.hero-facts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-facts-container {
+    max-width: 1140px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    gap: 20px;
+    border-radius: 40px;
+    background-color: #08313A;
+    margin-top:-80px;
+}
+
+.fact-item {
+    display: flex;
+    gap: 15px;
+    border-radius: 36px;
+    border: 1px solid #948855;
+    padding: 20px;
+
+}
+
+.fact-item h2 {
+    background: linear-gradient(to right, #ABA06B 0%, #7E7136 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lora", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.fact-item p {
+    color: white;
+    font-family: "Lora", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
