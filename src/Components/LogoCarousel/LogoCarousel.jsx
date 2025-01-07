@@ -49,6 +49,7 @@ export const LogoCarousel = () => {
       };
       return (
         <div className="slider-container">
+          <div className='slider-container'>
           <Slider {...settings}>
             <div className='logo-carousel-image'>
               <img src={harvard}/>
@@ -76,6 +77,7 @@ export const LogoCarousel = () => {
             </div>
             
           </Slider>
+          </div>
         </div>
       );
     }

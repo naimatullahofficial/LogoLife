@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LogoCarousel from './Components/LogoCarousel/LogoCarousel';
 import TestimonialSection from "./Components/TestimonialSection/TestimonialSection"
+import AdvantageSection from './Components/AdvantageSection/AdvantageSection';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
       <HeroFacts />
       <LogoCarousel />
       <TestimonialSection />
+      <AdvantageSection />
     </div>
   )
 }

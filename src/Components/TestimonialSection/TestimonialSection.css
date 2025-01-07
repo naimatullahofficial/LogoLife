@@ -1,11 +1,8 @@
 
 .testimonials-secttion {
     margin-top: 40px;
-    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-
 }
 
 .testimonials-secttion .top-container p{
@@ -34,83 +31,50 @@
 
 .testimonials-secttion .bottom-container {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.testimonial-carousel{
-    display: flex;
-    width: 33.33%;
     flex-direction: column;
-    padding: 50px;
-    gap: 20px;
-    box-shadow: 0 0 6.4px 1px rgba(0, 0, 0, 0.096);
-    border-radius: 23px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.testimonial-carousel img {
-    width: 90px;;
-}
-
-.testimonial-carousel p {
-    font-family: 'SFPro', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-    color: #08313A;
-    text-align: justify;
-}
-
-.testimonial-carousel h2 {
+.consultation-btn {
+    background-color: #08313A;
+    width: 359px;
+    height: 41px;
+    border-radius: 26px;
+    color: #EADEA7;
+    border: none;
     font-family: "Lora", Sans-serif;
-    font-size: 20px;
-    font-weight: 450;
-    font-style: italic;
-    color: #08313A
-}
-
-.testimonial-carousel p.subTitle {
-    font-family: 'SFPro', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    margin-top: -15px;
-    color: #948855;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
 
 }
 
-.video-carousel{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 20px;
-    position: relative;
-}
-
-.video-carousel img{
-    margin-top: -15px;
-}
-
-
-.video-carousel .video-play-icon {
-    width: 50px;
+.testimonial-slider-container .slick-arrow.slick-prev {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    background: url("../../assets/prev-icon.png") no-repeat center center; /* Add your icon URL here */
+    background-size: contain; /* Ensure the image fits */
+    color: transparent; /* Hide the text */
+    border: none; /* Remove default button border */
+    width: 30px; /* Adjust width to fit your icon */
+    height: 30px; /* Adjust height to fit your icon */
+    text-indent: -9999px; /* Completely hide the text */
+    cursor: pointer; /* Add a pointer for better UX */
+    top: 115%;
+    left: 2%;
+  }
 
-.chloe {
-    background: url("../../assets/Chloe.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7 ;
-}
-
-.zara {
-    background: url("../../assets/zara.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7 ;
-}
+.testimonial-slider-container .slick-arrow.slick-next {
+    position: absolute;
+    background: url("../../assets/next-icon.png") no-repeat center center; /* Add your icon URL here */
+    background-size: contain; /* Ensure the image fits */
+    color: transparent; /* Hide the text */
+    border: none; /* Remove default button border */
+    width: 30px; /* Adjust width to fit your icon */
+    height: 30px; /* Adjust height to fit your icon */
+    text-indent: -9999px; /* Completely hide the text */
+    cursor: pointer; /* Add a pointer for better UX */
+    top: 115%;
+    right: 2%;
+  }

@@ -4,6 +4,7 @@
 
 .hero-section{
     height: 75vh;
+    padding: 70px 0px 150px;
     width: 100%;
     background: url("../../assets/hero-overlay.png");
     background-size: cover;
