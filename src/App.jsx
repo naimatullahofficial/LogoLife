@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import LogoCarousel from './Components/LogoCarousel/LogoCarousel';
 import TestimonialSection from "./Components/TestimonialSection/TestimonialSection"
 import AdvantageSection from './Components/AdvantageSection/AdvantageSection';
+import CalendlySection from "./Components/CalendlySection/CalendlySection"
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
       <LogoCarousel />
       <TestimonialSection />
       <AdvantageSection />
+      <CalendlySection />
     </div>
   )
 }
