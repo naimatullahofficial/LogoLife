@@ -4,7 +4,7 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-        <nav className='navbar container'>
+        <nav className='navbar'>
             <img type="image/svg+xml" src={logo} /> 
             <button className='dark-btn'>
                 Book Consultation

@@ -8,7 +8,8 @@ import background_overlay from "../../assets/hero-overlay.png"
 export const Hero = () => {
   return (
 
-        <div className='hero-section container'>
+        <div className='container'>
+          <div className='hero-section '>
             <div className='left-container'>
                 <button className='parent-btn'>Parents</button>
                 <h1 className='hero-heading'>98% Acceptance to Top<br/> <span className='hero-gradient-h1'> Computer Science</span> and<br /> <span className='hero-gradient-h1'>Tech Programs</span> </h1>
@@ -21,6 +22,7 @@ export const Hero = () => {
             <img src={play_icon} className='play-icon'/>
 
             </div>
+        </div>
         </div>
   )
 }
