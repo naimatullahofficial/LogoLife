@@ -1,0 +1,116 @@
+
+.testimonials-secttion {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.testimonials-secttion .top-container p{
+    font-family: 'SFPro', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 15.51px;
+}
+
+.testimonials-secttion .top-container h1{
+    font-family: 'SFPro', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 58px;
+    color: #08313A;
+}
+
+.top-container h1 span{
+    font-family: "Lora", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 58px;
+}
+
+.testimonials-secttion .bottom-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.testimonial-carousel{
+    display: flex;
+    width: 33.33%;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    box-shadow: 0 0 6.4px 1px rgba(0, 0, 0, 0.096);
+    border-radius: 23px;
+}
+
+.testimonial-carousel img {
+    width: 90px;;
+}
+
+.testimonial-carousel p {
+    font-family: 'SFPro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #08313A;
+    text-align: justify;
+}
+
+.testimonial-carousel h2 {
+    font-family: "Lora", Sans-serif;
+    font-size: 20px;
+    font-weight: 450;
+    font-style: italic;
+    color: #08313A
+}
+
+.testimonial-carousel p.subTitle {
+    font-family: 'SFPro', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: -15px;
+    color: #948855;
+
+}
+
+.video-carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+    position: relative;
+}
+
+.video-carousel img{
+    margin-top: -15px;
+}
+
+
+.video-carousel .video-play-icon {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chloe {
+    background: url("../../assets/Chloe.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7 ;
+}
+
+.zara {
+    background: url("../../assets/zara.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7 ;
+}

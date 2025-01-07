@@ -1,16 +1,19 @@
+.dark-color {
+    background-color: #F8F5EE;
+}
+
 .hero-section{
     height: 75vh;
     width: 100%;
     background: url("../../assets/hero-overlay.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #F8F5EE;
     background-attachment: fixed;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 10% 170px 10%;
+
     
 }
 

@@ -15,8 +15,6 @@ a{
 }
 
 
-.container {
-    
-    width: 100%;
+.main-container {
+    padding: 0 10%;
 }
-
