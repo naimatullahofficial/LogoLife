@@ -9,6 +9,7 @@ import LogoCarousel from './Components/LogoCarousel/LogoCarousel';
 import TestimonialSection from "./Components/TestimonialSection/TestimonialSection"
 import AdvantageSection from './Components/AdvantageSection/AdvantageSection';
 import CalendlySection from "./Components/CalendlySection/CalendlySection"
+import ExpertsSection from './Components/ExpertsSection/ExpertsSection';
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
       <HeroFacts />
       <LogoCarousel />
       <TestimonialSection />
+      <ExpertsSection />
       <AdvantageSection />
       <CalendlySection />
     </div>

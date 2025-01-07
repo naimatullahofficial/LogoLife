@@ -1,0 +1,123 @@
+.experts-section {
+    margin-top: 70px;
+    background-color: #F9F5ED;
+    padding: 100px 0px;
+
+}
+
+.experts-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.experts-heading-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experts-heading-container .subtitle {
+    font-family: 'SFPro', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 16px;
+    font-style: italic;
+    color: #08313A;
+}
+
+.experts-heading-container h2 {
+    color: #08313A;
+    font-family: 'SFPro', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 52.2px;
+    text-align: center;
+
+}
+
+.experts-heading-container h2 .facts {
+    background: linear-gradient(to right, #91854C 0%, #DBCD89 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lora", Sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52.2px;
+    font-style: italic;
+
+}
+
+.experts-heading-container h2 .experts {
+    color: #08313A;
+    font-family: "Lora", Sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52.2px;
+    font-style: italic;
+
+}
+  
+.slide {
+    width: 25%;
+    margin-top: 100px;
+    padding: 80px 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 6.4px 5px rgba(0, 0, 0, 0.055);
+    flex: 0 0 calc(96% / 4);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    transition: 0.3s ease-out;
+
+}
+
+
+.slide .expert-image {
+    display: block;
+    border-radius: 100%;
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Ensures circular shape */
+    margin-top: -140px; /* Space from other content */
+    margin-bottom: 40px;
+}
+
+.carousel-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    
+}
+
+.carousel-content h2{
+    color: #08313A;
+    font-family: "Lora", Sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+    
+}
+
+.carousel-content ul li {
+
+    color: #00000093;
+    font-family: "Lora", Sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 20px;
+    
+    
+}
+
+.carousel-content .uni-image {
+    margin-top: 20px;
+    width: 120px;
+}
