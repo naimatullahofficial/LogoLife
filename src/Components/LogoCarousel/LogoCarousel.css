@@ -6,3 +6,41 @@
     padding: 2% 2%;
 }
 /* padding: 50px 70px; */
+
+
+/* Large tablets & desktops */
+@media (max-width: 1440px) {
+
+    
+}
+
+
+/* Small laptops */
+@media (max-width: 1280px) {
+
+    .slider-container {
+       padding-top: 3%;
+    }
+
+    .logo-carousel-image img {
+        width: 70%;
+    }
+    
+
+    
+}
+
+@media (max-width: 998px) { 
+
+    .slider-container {
+        padding-top: 4%;
+     }
+
+     .logo-carousel-image img {
+        width: 70%;
+    }
+    
+
+
+}
+

@@ -61,5 +61,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
   
+
+.universties-list img {
+    -webkit-user-drag: none;
+    pointer-events: none;
+}
