@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
   return (
-        <nav className={`navbar ${sticky ? '' : 'hidden'}`}>
+        <nav className={`navbar ${sticky ? '' : ''}`}>
             <img type="image/svg+xml" src={logo} /> 
             <a href="#calendly">
               <button type="button" className="dark-btn">Book Consultation</button>
