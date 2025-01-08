@@ -8,7 +8,7 @@
 .testimonials-secttion .top-container p{
     font-family: 'SFPro', sans-serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
     line-height: 15.51px;
 }
@@ -79,3 +79,93 @@
     top: 115%;
     right: 2%;
   }
+
+
+  
+
+/* Large tablets & desktops */
+@media (max-width: 1440px) {
+
+    .testimonials-secttion .top-container h1{
+        font-size: 42px;
+        line-height: 42px;
+    }
+    
+    .top-container h1 span{
+        font-size: 42px;
+        line-height: 42px;
+    }
+    
+    
+}
+
+
+/* Small laptops */
+@media (max-width: 1280px) {
+
+    
+    .testimonials-secttion .top-container h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .top-container h1 span{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+
+    
+}
+
+@media (max-width: 998px) { 
+
+    .testimonial-slider-container .slick-arrow.slick-prev {
+        top: 105%;
+        left: 2%;
+    }
+
+    .testimonial-slider-container .slick-arrow.slick-next {
+        top: 105%;
+        right: 2%;
+    }
+
+}
+
+
+
+/* Tablet (portrait) */
+@media (max-width: 768px) {
+
+    .testimonials-secttion .top-container h1{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .top-container h1 span{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .testimonial-slider-container .slick-arrow.slick-prev {
+        top: 105%;
+        left: 2%;
+    }
+
+    .testimonial-slider-container .slick-arrow.slick-next {
+        top: 105%;
+        right: 2%;
+    }
+
+    .consultation-btn {
+        margin-top: 35px;
+    }
+   
+}
+
+
+/* Mobile (large devices) */
+@media (max-width: 600px) {
+
+         
+}
