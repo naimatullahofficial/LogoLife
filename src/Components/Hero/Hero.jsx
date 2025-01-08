@@ -23,16 +23,16 @@ export const Hero = () => {
                 <h1 className='hero-heading'>98% Acceptance to Top<br/> <span className='hero-gradient-h1'> Computer Science</span> and<br /> <span className='hero-gradient-h1'>Tech Programs</span> </h1>
                 <img className='review-logo' src={review_logo}></img>
                 <a href="#calendly">
-                  <button type="button" className="dark-btn">Book Consultation</button>
+                  <button type="button" className="consultation-btn">Book Consultation</button>
                 </a>
             </div>
             <div className='right-container'>
-
-            <img src={hero_video_overlay} className='hero-video-img' />
-            <img src={play_icon} className='play-icon' onClick={showVideo}/>
-            <VideoPlayer src= {hero_section_video} className= {videoClass}/>
-            
-
+              <img src={hero_video_overlay} className='hero-video-img' />
+              <img src={play_icon} className='play-icon' onClick={showVideo}/>
+              <VideoPlayer src= {hero_section_video} className= {videoClass}/>
+              <a href="#calendly">
+                  <button type="button" className="consultation-btn">Book Consultation</button>
+                </a>
             </div>
         </section>
         </div>

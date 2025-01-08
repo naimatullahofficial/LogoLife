@@ -9,8 +9,7 @@
 }
 
 .hero-section{
-    height: 75vh;
-    padding: 70px 0px 150px;
+    padding: 160px 0px 150px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -29,13 +28,17 @@
 }
 
 .right-container {
-    padding: 0px;
-    width: 40%;
+    width: 50%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .hero-video-img{
-    width: 100%;
+    width: 90%;
     border-radius: 24px;
     box-shadow: 0 0 22.7px 0 rgba(0, 0, 0, 0.226);
 
@@ -50,7 +53,7 @@
 
 }
 
-.left-container .consultation-btn {
+.left-container .consultation-btn, .right-container .consultation-btn {
     font-family: "Lora", Sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -60,7 +63,7 @@
     background-color: #91854C;
     border-style: none;
     border-radius: 26px 26px 26px 26px;
-    padding: 15px 25px;
+    padding: 10px 25px;
     cursor: pointer;
     width: fit-content; 
     max-width: 100%;
@@ -108,5 +111,128 @@
 }
 
 .review-logo {
-    width: 40%;
+    width: 300px;
+}
+
+.right-container .consultation-btn {
+    display: none;
+}
+
+
+
+/* Large tablets & desktops */
+@media (max-width: 1440px) {
+
+    .hero-heading, .hero-gradient-h1 {
+        font-size: 40px;
+        line-height: 46px;  
+      }
+
+      .left-container .parent-btn {
+        font-size: 15px;
+        padding: 7px 30px;
+      }
+    
+}
+
+
+/* Small laptops */
+@media (max-width: 1280px) {
+
+    .hero-section{
+        padding: 80px 0;     
+    }
+
+    .hero-heading, .hero-gradient-h1 {
+        font-size: 38px;
+        line-height: 46px;  
+      }
+
+    .review-logo {
+        width: 250px;
+    }
+
+    .play-icon {
+        width: 40px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+
+    
+}
+
+
+@media (max-width: 998px) {
+
+    .hero-section{
+        padding: 60px 0;
+        flex-direction: column;
+        gap: 20px;   
+    }
+
+    .left-container .consultation-btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .left-container, .right-container {
+        width: 100%;
+    }
+
+    .hero-heading, .hero-gradient-h1 {
+        font-size: 38px;
+        line-height: 46px;  
+        text-align: center;
+      }
+      
+      .review-logo {
+        width: 220px;  
+        margin: 0 auto;  
+        display: block;  
+    }
+
+    .left-container .parent-btn {
+        margin: 0 auto;  
+        display: block;
+        margin-bottom: -15px;
+      }
+
+    .right-container .consultation-btn {
+        display: block;
+    }
+
+    .play-icon {
+        width: 40px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+
+
+   
+}
+
+/* Tablet (portrait) */
+@media (max-width: 768px) {
+
+    .hero-section{
+        padding: 60px 0;
+        flex-direction: column;   
+    }
+
+    .hero-heading, .hero-gradient-h1 {
+        font-size: 36px;
+      }
+      
+}
+
+/* Mobile (large devices) */
+@media (max-width: 600px) {
+
+
 }

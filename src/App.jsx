@@ -18,7 +18,7 @@ export const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <HeroFacts />
+      {/* <HeroFacts /> */}
       <LogoCarousel />
       <TestimonialSection />
       <ExpertsSection />
