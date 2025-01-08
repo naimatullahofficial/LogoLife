@@ -1,10 +1,12 @@
 .navbar{
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     background-color: rgba(248, 245, 238, 0.9215686274509803);
     padding: 0 10%;
+    z-index: 100;
 
 
 }
@@ -27,4 +29,8 @@
     padding: 13px 25px;
     cursor: pointer;
     
+}
+
+.hidden {
+    display: none;
 }

@@ -5,7 +5,7 @@ import CalendlyWidget from "../CalendlyWidget/CalendlyWidget"
 
 export const CalendlySection = () => {
   return (
-    <div className='calendly-section'>
+    <div className='calendly-section' id='calendly'>
         <div className='main-container calendly'> 
             <div className='calendly-heading-container'>
                 <p className='subtitle'>Limited availability</p>

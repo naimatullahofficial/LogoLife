@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Hero.css"
 import hero_video_overlay from "../../assets/hero-video-overlay.png"
 import play_icon from "../../assets/Play-Button.png"
 import review_logo from "../../assets/review-logo.png"
-import background_overlay from "../../assets/hero-overlay.png"
+import VideoPlayer from '../VideoPlayer/VideoPlayer'
+import hero_section_video from "../../assets/hero-section-video.mp4"
 
 export const Hero = () => {
+
+  const [videoClass, SetVideoClass] = useState("hide")
+
+  const showVideo = () => {
+    SetVideoClass((prevClass) => (prevClass === "hide" ? "" : "hide"));
+  };
+
   return (
 
         <div className='main-container dark-color'>
@@ -14,12 +22,16 @@ export const Hero = () => {
                 <button className='parent-btn'>Parents</button>
                 <h1 className='hero-heading'>98% Acceptance to Top<br/> <span className='hero-gradient-h1'> Computer Science</span> and<br /> <span className='hero-gradient-h1'>Tech Programs</span> </h1>
                 <img className='review-logo' src={review_logo}></img>
-                <button className='consultation-btn'>Book Consultation</button>
+                <a href="#calendly">
+                  <button type="button" className="dark-btn">Book Consultation</button>
+                </a>
             </div>
             <div className='right-container'>
 
             <img src={hero_video_overlay} className='hero-video-img' />
-            <img src={play_icon} className='play-icon'/>
+            <img src={play_icon} className='play-icon' onClick={showVideo}/>
+            <VideoPlayer src= {hero_section_video} className= {videoClass}/>
+            
 
             </div>
         </section>

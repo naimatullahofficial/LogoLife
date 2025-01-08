@@ -13,7 +13,10 @@ export const TestimonialSection = () => {
             <div>
               <TestimonialCarousel />
             </div>
-            <div className='bottom-container'><button className='consultation-btn'>Get Started</button></div>
+            <div className='bottom-container'><a href="#calendly">
+                  <button type="button" className="consultation-btn">Get Started</button>
+                </a></div>
+            
         </section>
 
   )

@@ -56,12 +56,11 @@
     font-weight: 500;
     letter-spacing: 0.4px;
     line-height: 18px;
-    fill: #FFFFFF;
     color: #FFFFFF;
     background-color: #91854C;
     border-style: none;
     border-radius: 26px 26px 26px 26px;
-    padding: 13px 25px;
+    padding: 15px 25px;
     cursor: pointer;
     width: fit-content; 
     max-width: 100%;

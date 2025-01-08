@@ -10,6 +10,8 @@ import TestimonialSection from "./Components/TestimonialSection/TestimonialSecti
 import AdvantageSection from './Components/AdvantageSection/AdvantageSection';
 import CalendlySection from "./Components/CalendlySection/CalendlySection"
 import ExpertsSection from './Components/ExpertsSection/ExpertsSection';
+import VideoPlayer from './Components/VideoPlayer/VideoPlayer';
+import video from "./assets/Columbia-Barnard.mp4"
 
 export const App = () => {
   return (
