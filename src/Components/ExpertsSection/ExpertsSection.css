@@ -1,14 +1,10 @@
 .experts-section {
     margin-top: 70px;
-    background-color: #F9F5ED;
+    /* background-color: #F9F5ED; */
+    background: radial-gradient(circle, #F9F5ED 100%, rgba(148, 136, 85, 0.41) 41%);
+
     padding: 100px 0px;
 
-}
-
-.experts-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
 }
 
 .experts-heading-container {
@@ -58,5 +54,12 @@
     line-height: 52.2px;
     font-style: italic;
 
+}
+
+.universties-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   

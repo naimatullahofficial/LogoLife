@@ -1,19 +1,7 @@
 import React from 'react'
 import "./ExpertsSection.css"
-import expert_3 from "../../assets/client-1.png"
-import expert_5 from "../../assets/client-2.png"
-import expert_1 from "../../assets/client-3.png"
-import expert_2 from "../../assets/client-4.png"
-import expert_6 from "../../assets/client-5.png"
-import expert_7 from "../../assets/client-6.png"
-import expert_4 from "../../assets/client-7.png"
-import harvard from "../../assets/harvard.png"
-import brown from "../../assets/brown.png"
-import netflix from "../../assets/netflix.png"
-import apple from "../../assets/Apple.png"
-import mcKinsey from "../../assets/Mckinsey.png"
-import columbia from "../../assets/columbia.png"
 import ExpertsCarousel from '../ExpertsCarousel/ExpertsCarousel'
+import universties_list_desktop from "../../assets/universties-list.svg"
 
 
 
@@ -32,6 +20,10 @@ export const ExpertsSection = () => {
 
         <div>
             <ExpertsCarousel />
+        </div>
+
+        <div className='universties-list'>
+            <img src={universties_list_desktop}/>
         </div>
         
     
