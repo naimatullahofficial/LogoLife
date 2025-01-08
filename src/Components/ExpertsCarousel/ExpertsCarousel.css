@@ -9,7 +9,6 @@
     padding: 80px 60px;
     border-radius: 10px;
     box-shadow: 0 0 6.4px 5px rgba(0, 0, 0, 0.055);
-    flex: 0 0 calc(96% / 4);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +66,7 @@
 
 
 .experts-slider-container {
-    padding: 0 7%;
+    padding: 0 5%;
 }
 
 
@@ -98,3 +97,82 @@
     top: 60%;
     right: -3%;
   }
+
+
+  
+/* Large tablets & desktops */
+@media (max-width: 1440px) {
+
+    .slide {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        padding: 80px 40px;
+        height: 380px;
+    }
+
+    
+}
+
+
+/* Small laptops */
+@media (max-width: 1280px) {
+
+    .slide {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        padding: 60px 30px;
+        height: 420px;
+    }
+
+    
+}
+
+@media (max-width: 998px) { 
+
+    .slide {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        padding: 60px 30px;
+    }
+
+    .experts-slider-container {
+        padding: 0 3%;
+        margin-top: -20px;
+    }
+
+    .experts-slider-container .slick-arrow.slick-prev {
+    top: 50%;
+    left: -9%;
+    }
+
+    .experts-slider-container .slick-arrow.slick-next {
+
+    right: -9%;
+    top: 50%;
+
+    }
+
+
+}
+
+
+
+/* Tablet (portrait) */
+@media (max-width: 768px) {
+
+    .experts-slider-container .slick-arrow.slick-prev {
+        top: 105%;
+        left: 6%;
+        }
+    
+        .experts-slider-container .slick-arrow.slick-next {
+    
+        top: 105%;
+        right: 6%;
+    
+        }
+
+  
+   
+}
+
