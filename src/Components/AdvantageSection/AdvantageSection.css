@@ -1,5 +1,5 @@
 .advantage-section{
-    padding: 100px 20px;
+    padding: 100px 0px;
     background: linear-gradient(90deg, #1A5653 0%, #08313A 100%);;
     
 }
@@ -54,7 +54,7 @@
     flex-direction: column;
     background: #FFFFFF1A;
     border-radius: 20px;
-    gap: 10px;
+    gap: 5px;
     padding: 40px 35px;
 }
 
@@ -67,7 +67,7 @@
 .single-feature h2 {
     color: #FFFFFF;
     font-family: 'SFPro', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 25px;
     line-height: 36px;
 }
@@ -78,4 +78,133 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
+}
+
+/* Large tablets & desktops */
+@media (max-width: 1440px) {
+
+    
+.heading-container h2 {
+    font-size: 45px;
+    line-height: 58px;
+}
+
+.heading-container h2 span {
+    font-size: 45px;
+    line-height: 58px;
+}
+
+.heading-container p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+    
+}
+
+
+/* Small laptops */
+@media (max-width: 1280px) {
+
+    .heading-container h2 {
+        font-size: 42px;
+        line-height: 58px;
+    }
+    
+    .heading-container h2 span {
+        font-size: 42px;
+        line-height: 58px;
+    }
+    
+    .heading-container p {
+        font-size: 15px;
+        font-weight: 300;
+        width: 500px;
+    }
+
+    
+}
+
+@media (max-width: 998px) { 
+
+    .heading-container h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .heading-container h2 span {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .heading-container p {
+        font-size: 14px;
+        font-weight: 300;
+        width: 500px;
+    }
+
+
+}
+
+
+
+/* Tablet (portrait) */
+@media (max-width: 768px) {
+
+    .advantage-section {
+        padding: 60px 0px;
+
+    }
+
+    .features-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .heading-container h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .heading-container h2 span {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .heading-container p {
+        font-size: 14px;
+        font-weight: 300;
+        width: 400px;
+        text-align: justify;
+    }
+
+    
+.single-feature h2 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.single-feature p {
+    font-size: 9px;
+    line-height: 20px;
+}
+
+.single-feature img {
+    width: 46px;
+    margin-bottom: 20px;
+
+}
+
+  
+   
+}
+
+
+/* Mobile (large devices) */
+@media (max-width: 600px) {
+
+         
 }
