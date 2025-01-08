@@ -9,7 +9,7 @@ export const CalendlySection = () => {
         <div className='main-container calendly'> 
             <div className='calendly-heading-container'>
                 <p className='subtitle'>Limited availability</p>
-                <h2>Every Day Counts. Secure<br/>Your<span class="gradient2"> Child’s Future </span> Now</h2>
+                <h2>Every Day Counts. Secure<br/>Your<span className="gradient2"> Child’s Future </span> Now</h2>
                 <p className='calendly-paragraph'>Get personalized guidance to maximize your chances of admission <br></br> into top tech programs. Limited spots available!</p>
                 <ul>
                     <li> <img src={check}/> 1:1 mentorship from industry experts</li>

@@ -13,6 +13,7 @@ import netflix from "../../assets/netflix.png"
 import apple from "../../assets/Apple.png"
 import mcKinsey from "../../assets/Mckinsey.png"
 import columbia from "../../assets/columbia.png"
+import ExpertsCarousel from '../ExpertsCarousel/ExpertsCarousel'
 
 
 
@@ -24,69 +25,18 @@ export const ExpertsSection = () => {
             <div className='experts-heading-container'>
                 <p className='subtitle'>The AcceptedX Multiplier</p>
                 <h2><span className='facts'>7-12x </span>Chances of Admission By Working <br/>With the <span className='experts'> Experts </span></h2>
-            </div>
-
-            <div className='experts-container'>
-                <div className='slide'>
-                    <img className='expert-image' src={expert_1}/>
-                    <div className='carousel-content'>
-                        <h2>Jill O 1.</h2>
-                        <ul>
-                            <li>Masters in Education</li>
-                            <li>Masters in Literature</li>
-                            <li>Elite Tier Consultant</li>
-                        </ul>
-                        <img className="uni-image" src={harvard}/>
-                    </div>
-                    
-                </div>
-
-                <div className='slide'>
-                    <img className='expert-image' src={expert_1}/>
-                    <div className='carousel-content'>
-                        <h2>Jill O 1.</h2>
-                        <ul>
-                            <li>Masters in Education</li>
-                            <li>Masters in Literature</li>
-                            <li>Elite Tier Consultant</li>
-                        </ul>
-                        <img className="uni-image" src={harvard}/>
-                    </div>
-                    
-                </div>
-
-                <div className='slide'>
-                    <img className='expert-image' src={expert_1}/>
-                    <div className='carousel-content'>
-                        <h2>Jill O 1.</h2>
-                        <ul>
-                            <li>Masters in Education</li>
-                            <li>Masters in Literature</li>
-                            <li>Elite Tier Consultant</li>
-                        </ul>
-                        <img className="uni-image" src={harvard}/>
-                    </div>
-                    
-                </div>
-
-                <div className='slide'>
-                    <img className='expert-image' src={expert_1}/>
-                    <div className='carousel-content'>
-                        <h2>Jill O 1.</h2>
-                        <ul>
-                            <li>Masters in Education</li>
-                            <li>Masters in Literature</li>
-                            <li>Elite Tier Consultant</li>
-                        </ul>
-                        <img className="uni-image" src={harvard}/>
-                    </div>
-                    
-                </div>
-                
+        
             </div>
         
         </div>
+
+        <div>
+            <ExpertsCarousel />
+        </div>
+        
+    
     </div>
+    
   )
 }
 

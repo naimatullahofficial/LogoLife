@@ -1,0 +1,99 @@
+
+.gap {
+    padding: 0 20px;
+}
+
+.slide {
+    margin-top: 100px;
+    padding: 80px 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 6.4px 5px rgba(0, 0, 0, 0.055);
+    flex: 0 0 calc(96% / 4);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    transition: 0.3s ease-out;
+
+}
+
+
+.slide .expert-image {
+    display: block;
+    border-radius: 100%;
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Ensures circular shape */
+    margin-top: -140px; /* Space from other content */
+    margin-bottom: 40px;
+}
+
+.carousel-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    
+}
+
+.carousel-content h2{
+    color: #08313A;
+    font-family: "Lora", Sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 30px;
+    
+}
+
+.carousel-content ul li {
+
+    color: #00000093;
+    font-family: "Lora", Sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 20px;
+    
+    
+}
+
+.carousel-content .uni-image {
+    margin-top: 20px;
+    width: 120px;
+}
+
+
+.experts-slider-container {
+    padding: 0 7%;
+}
+
+
+.experts-slider-container .slick-arrow.slick-prev {
+    position: absolute;
+    background: url("../../assets/prev-icon.png") no-repeat center center; /* Add your icon URL here */
+    background-size: contain; /* Ensure the image fits */
+    color: transparent; /* Hide the text */
+    border: none; /* Remove default button border */
+    width: 30px; /* Adjust width to fit your icon */
+    height: 30px; /* Adjust height to fit your icon */
+    text-indent: -9999px; /* Completely hide the text */
+    cursor: pointer; /* Add a pointer for better UX */
+    top: 60%;
+    left: -3%;
+  }
+
+.experts-slider-container .slick-arrow.slick-next {
+    position: absolute;
+    background: url("../../assets/next-icon.png") no-repeat center center; /* Add your icon URL here */
+    background-size: contain; /* Ensure the image fits */
+    color: transparent; /* Hide the text */
+    border: none; /* Remove default button border */
+    width: 30px; /* Adjust width to fit your icon */
+    height: 30px; /* Adjust height to fit your icon */
+    text-indent: -9999px; /* Completely hide the text */
+    cursor: pointer; /* Add a pointer for better UX */
+    top: 60%;
+    right: -3%;
+  }
