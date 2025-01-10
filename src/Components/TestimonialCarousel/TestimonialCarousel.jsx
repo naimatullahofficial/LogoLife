@@ -17,7 +17,7 @@ export const TestimonialCarousel = () => {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
               dots: false
@@ -48,7 +48,7 @@ export const TestimonialCarousel = () => {
               <div className='testimonial-section'>
                 <div className='testimonial-carousel'>
                   <img  src={review_stars}/>
-                  <p>“Kyle at LogoLife is a very knowledgeable tutor with a unique ability to pay meticulous attention to details that can make a huge difference when applying to your dream school. Kyle was able to guide me through the process of constructing and elevating my college essay to a much high standard. I strongly recommend Kyle to anyone who is serious about applying and getting accepted to highly completive school/college.”</p>
+                  <p>“Cristina at LogoLife is a very knowledgeable tutor with a unique ability to pay meticulous attention to details that can make a huge difference when applying to your dream school. Cristina was able to guide me through the process of constructing and elevating my college essay to a much high standard. I strongly recommend Cristina to anyone who is serious about applying and getting accepted to highly completive school/college.”</p>
                   <h2>Kiran Desai</h2>
                   <p className='subTitle'>UC Berkeley</p>
                 </div>

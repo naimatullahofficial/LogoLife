@@ -14,9 +14,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 15px;
-    height: auto; /* Allow height to adjust dynamically */
-    min-height: 460px; /* Set a minimum height */
-    max-height: 80vh; /* Cap height to 80% of viewport */
+    height: 450px;
 }
 
 .testimonial-carousel img {
@@ -55,9 +53,7 @@
     justify-content: flex-end;
     gap: 15px;
     position: relative;
-    height: auto; /* Allow height to adjust dynamically */
-    min-height: 460px; /* Set a minimum height */
-    max-height: 80vh; /* Cap height to 80% of viewport */
+    height: 450px;
 }
 
 .video-carousel img{
@@ -95,26 +91,48 @@
 @media (max-width: 1440px) {
 
     .video-carousel{ 
-        height: auto; /* Allow height to adjust dynamically */
-        min-height: 470px; /* Set a minimum height */
-        max-height: 80vh; /* Cap height to 80% of viewport */
+        height: 530px;
 
     }
 
     .testimonial-carousel{
-        height: auto; /* Allow height to adjust dynamically */
-        min-height: 470px; /* Set a minimum height */
-        max-height: 80vh; /* Cap height to 80% of viewport */
-        padding: 30px; }
+        padding: 0 30px;
+        height: 530px; }
+
+        .video-carousel img {
+            margin-bottom: 20px;
+        
+        }
+
+        .testimonial-slider-container{
+            padding: 0 3%;
+        }
+
+        .testimonial-section{
+            padding: 15px;
+        }
+        
     
 }
+
+
 
 
 /* Small laptops */
 @media (max-width: 1280px) {
 
-    .testimonial-carousel{
-        padding: 30px; }
+        .testimonial-slider-container{
+            padding: 0 3%;
+        }
+        
+        .testimonial-section{
+            padding: 10px;
+        }
+
+        .video-carousel img {
+            margin-bottom: 40px;
+
+        }
 
     
     
@@ -128,6 +146,11 @@
 
     .testimonial-carousel{
         padding: 40px; }
+
+        .video-carousel img {
+            margin-bottom: 0px;
+        
+        }
 }
 
 
@@ -135,7 +158,13 @@
 /* Tablet (portrait) */
 @media (max-width: 768px) {
     .testimonial-carousel{
-        padding: 50px; }
+        padding: 40px;
+        height: 450px; }
+
+        .video-carousel{ 
+            height: 450px;
+    
+        }
   
    
 }

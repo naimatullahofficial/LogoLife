@@ -38,17 +38,18 @@
 }
 
 .consultation-btn {
-    background-color: #08313A;
-    width: 359px;
-    height: 41px;
-    border-radius: 26px;
-    color: #EADEA7;
-    border: none;
     font-family: "Lora", Sans-serif;
-    font-weight: 500;
     font-size: 15px;
-    line-height: 18px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #EADEA7;
+    background-color: #08313A;
+    border-style: none;
+    border-radius: 26px 26px 26px 26px;
+    padding: 13px 25px;
     cursor: pointer;
+    width: 370px;
+    height: 50px;
 
 }
 

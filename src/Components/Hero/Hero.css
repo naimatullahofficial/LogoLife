@@ -59,22 +59,22 @@
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.4px;
-    line-height: 18px;
+    fill: #FFFFFF;
     color: #FFFFFF;
     background-color: #91854C;
     border-style: none;
     border-radius: 26px 26px 26px 26px;
-    padding: 10px 25px;
+    padding: 13px 25px;
     cursor: pointer;
-    width: fit-content; 
-    max-width: 100%;
+    width: 230px;
+    height: 50px;
   }
 
   .left-container .parent-btn {
     width: fit-content;  
     max-width: 100%;
     font-family: 'SFPro', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 16px;
     font-style: italic;
     color: #08313A;
@@ -90,7 +90,7 @@
     font-family: 'SFPro', sans-serif;
     font-size: 48px;
     line-height: 58px;
-    font-weight: 500;
+    font-weight: 400;
     color: #08313A;
     letter-spacing: -1px;
 
@@ -106,8 +106,7 @@
     background: linear-gradient(to right, #ABA06B 0%, #7E7136 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: 1.3px;
-    word-spacing: 10px;
+    letter-spacing: 1px;
     line-height: 1px;
 }
 
@@ -231,7 +230,15 @@
     }
 
     .hero-heading, .hero-gradient-h1 {
-        font-size: 36px;
+        font-size: 29px;
+        line-height: 38px;
+      }
+
+
+      .left-container .consultation-btn, .right-container .consultation-btn {
+        margin-top: -3px;
+        width: 220px;
+        height: 45px;
       }
       
 }

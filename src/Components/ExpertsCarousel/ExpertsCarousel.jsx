@@ -16,7 +16,7 @@ import mcKinsey from "../../assets/Mckinsey.png";
 import columbia from "../../assets/columbia.png";
 
 const expertData = [
-  { image: expert_1, name: 'Jill O 1.', details: ['Masters in Education', 'Masters in Literature', 'Elite Tier Consultant'], uni: brown },
+  { image: expert_1, name: 'Jill O.', details: ['Masters in Education', 'Masters in Literature', 'Elite Tier Consultant'], uni: brown },
   { image: expert_2, name: 'Omar W.', details: ['Artificial Intelligence', 'Software Engineer', 'Elite Tier Consultant'], uni: harvard },
   { image: expert_3, name: 'Chinenye E.', details: ['Ivy League Counselor', 'Healthcare Professional', 'Elite Tier Consultant'], uni: columbia },
   { image: expert_4, name: 'Tina Y', details: ['14+ Years Software Engineer', 'Software Engineer', 'Elite Tier Consultant'], uni: mcKinsey },
