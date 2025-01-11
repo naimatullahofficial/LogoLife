@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import logo from "../../assets/logo-life-new.svg"
+import logo from "../../assets/logo-life.svg"
 import "./Navbar.css"
 
 const Navbar = () => {

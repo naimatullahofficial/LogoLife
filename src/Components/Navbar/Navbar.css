@@ -95,7 +95,7 @@
 
        .navbar img {
         width: auto;
-        max-width: 180px;
+        max-width: 160px;
         height: auto; /* Maintains aspect ratio */
     }
 
@@ -109,11 +109,4 @@
     }
 
    
-}
-
-@media (min-resolution: 192dpi), 
-       (min-device-pixel-ratio: 2) {
-    .navbar img {
-        content: url('../../assets/logo-life.svg'); /* Replace with high-res SVG path */
-    }
 }
