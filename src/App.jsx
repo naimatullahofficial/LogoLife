@@ -19,7 +19,7 @@ export const App = () => {
       <Navbar />
       <Hero />
       <HeroFacts />
-      {/* <LogoCarousel /> */}
+      <LogoCarousel />
       <TestimonialSection />
       <ExpertsSection />
       <AdvantageSection />

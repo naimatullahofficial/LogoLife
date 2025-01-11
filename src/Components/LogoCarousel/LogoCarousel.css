@@ -1,46 +1,47 @@
+/* General styles */
 .logo-carousel-image img {
-    width: 60%;
+    width: 100%;  
+    max-width: 65%; 
+    height: auto; 
 }
 
 .slider-container {
-    padding: 2% 2%;
+    padding: 2%; 
+    overflow: hidden; 
 }
-/* padding: 50px 70px; */
-
 
 /* Large tablets & desktops */
 @media (max-width: 1440px) {
-
-    
+    .logo-carousel-image img {
+        width: 60%; 
+    }
 }
-
 
 /* Small laptops */
 @media (max-width: 1280px) {
-
     .slider-container {
-       padding-top: 3%;
+       padding-top: 3%; 
     }
 
     .logo-carousel-image img {
-        width: 70%;
+        width: 80%; 
     }
-    
-
-    
 }
 
-@media (max-width: 998px) { 
-
+/* Medium screens like tablets */
+@media (max-width: 998px) {
     .slider-container {
-        padding-top: 4%;
-     }
-
-     .logo-carousel-image img {
-        width: 70%;
+        padding-top: 4%; 
     }
-    
 
-
+    .logo-carousel-image img {
+        width: 80%; 
+    }
 }
 
+/* Small screens (mobile devices) */
+@media (max-width: 600px) {
+    .logo-carousel-image img {
+        width: 90%; 
+    }
+}
