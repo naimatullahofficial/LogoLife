@@ -5,11 +5,13 @@
     padding: 20px 60px; 
     height: auto; 
     transition: all 0.3s ease-in-out;
+    overflow-x: hidden;
 }
 
 .slider-container {
     padding: 0 2%;
     padding-top: 40px; 
+    overflow-x: hidden;
 }
 
 /* Large tablets & desktops */
