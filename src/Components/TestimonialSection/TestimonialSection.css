@@ -50,6 +50,7 @@
     cursor: pointer;
     width: 370px;
     height: 50px;
+    margin-top: -100px;
 
 }
 
@@ -130,6 +131,7 @@
         top: 105%;
         right: 2%;
     }
+    
 
 }
 
@@ -159,7 +161,7 @@
     }
 
     .consultation-btn {
-        margin-top: 35px;
+        margin-top: 15px;
     }
    
 }

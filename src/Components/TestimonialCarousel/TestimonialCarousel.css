@@ -1,5 +1,6 @@
 .testimonial-slider-container{
-    padding: 0 5%;
+    padding: 0 6%;
+    padding-bottom: 50px;
 }
 
 .testimonial-section{
@@ -107,8 +108,9 @@
         }
 
         .testimonial-slider-container{
-            padding: 0 3%;
+            padding: 0 5% 7% 0;
         }
+        
 
         .testimonial-section{
             padding: 15px;
@@ -123,9 +125,9 @@
 /* Small laptops */
 @media (max-width: 1280px) {
 
-        .testimonial-slider-container{
-            padding: 0 3%;
-        }
+    .testimonial-slider-container{
+        padding: 0 5% 8% 0;
+    }
         
         .testimonial-section{
             padding: 10px;
@@ -143,7 +145,7 @@
 @media (max-width: 998px) { 
 
     .testimonial-slider-container{
-        padding: 0%;
+        padding: 0 5% 6% 0;
     }
 
     .testimonial-carousel{
@@ -159,6 +161,8 @@
 
 /* Tablet (portrait) */
 @media (max-width: 768px) {
+
+
     .testimonial-carousel{
         padding: 40px;
         height: 450px; }

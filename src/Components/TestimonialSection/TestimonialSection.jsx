@@ -12,10 +12,11 @@ export const TestimonialSection = () => {
             </div>
             <div>
               <TestimonialCarousel />
+              
             </div>
             <div className='bottom-container'><a href="#calendly">
                   <button type="button" className="consultation-btn">Get Started</button>
-                </a></div>
+            </a></div>
             
         </section>
 
