@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
         <nav className="navbar" >
-            <img type="image/svg+xml" src={logo} /> 
+           <div className='logo-container'> <img type="image/svg+xml" src={logo} /> </div>
             <a href="#calendly">
               <button type="button" className="dark-btn">Book Consultation</button>
             </a>
