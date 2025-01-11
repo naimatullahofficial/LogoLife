@@ -16,9 +16,9 @@ import video from "./assets/Columbia-Barnard.mp4"
 export const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
-      {/* <HeroFacts /> */}
+      <Navbar />
+      <Hero />
+      <HeroFacts />
       {/* <LogoCarousel /> */}
       <TestimonialSection />
       <ExpertsSection />
