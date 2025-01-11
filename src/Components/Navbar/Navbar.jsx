@@ -3,13 +3,11 @@ import logo from "../../assets/logo-life.svg"
 import "./Navbar.css"
 
 const Navbar = () => {
-
-  const [sticky, setSticky] = useState(false)
-
   useEffect(()=> {
 
     window.addEventListener("scroll", ()=>{
-      window.scrollY > 200 ? setSticky(true) : setSticky(false)
+      const navbar = document.querySelector(".navbar")
+      window.scrollY > 200 ? navbar.style.top = "0%" : navbar.style.top = "-10%"
       console.log("scrolled");
       
     })
@@ -18,7 +16,7 @@ const Navbar = () => {
 
 
   return (
-        <nav className={`navbar ${sticky ? '' : 'hidden'}`}>
+        <nav className="navbar" >
             <img type="image/svg+xml" src={logo} /> 
             <a href="#calendly">
               <button type="button" className="dark-btn">Book Consultation</button>
