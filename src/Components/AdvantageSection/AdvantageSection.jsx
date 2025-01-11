@@ -5,7 +5,7 @@ import mentorshipHover from "../../assets/mentorship-hover.svg";
 import internship from "../../assets/internship.svg";
 import internshipHover from "../../assets/internship-hover.svg";
 // import coding from "../../assets/coding.svg";
-import coding from "../../assets/internship-hover.svg";
+import codingimg from "../../assets/internship-hover.svg";
 import codingHover from "../../assets/coding-hover.svg";
 import portfolio from "../../assets/tech.svg";
 import portfolioHover from "../../assets/tech-hover.svg";
@@ -29,7 +29,7 @@ export const AdvantageSection = () => {
       description: "Acquire internships at tech companies, providing real-world experience and valuable industry connections.",
     },
     {
-      imgSrc: coding,
+      imgSrc: codingimg,
       imgHoverSrc: codingHover,
       title: "Tech Extracurriculars",
       description: "We encourage and prepare students to participate in hackathons, coding competitions, and other tech challenges.",
