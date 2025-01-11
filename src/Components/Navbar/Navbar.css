@@ -103,9 +103,9 @@
        }
 
        .navbar img {
-        max-width: 40%;
+        max-width: 100%;
     }
-    
+
     .dark-btn {
 
         display: none;
