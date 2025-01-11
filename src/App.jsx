@@ -17,7 +17,7 @@ export const App = () => {
   return (
     <div>
       {/* <Navbar /> */}
-      <Hero />
+      {/* <Hero /> */}
       <HeroFacts />
       <LogoCarousel />
       <TestimonialSection />
