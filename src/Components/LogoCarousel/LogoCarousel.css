@@ -1,13 +1,14 @@
 /* General styles */
 .logo-carousel-image img {
     width: 100%;  
-    max-width: 65%; 
+    max-width: 100%;
+    padding: 20px 60px; 
     height: auto; 
     transition: all 0.3s ease-in-out;
 }
 
 .slider-container {
-    padding: 2%; 
+    padding-top: 40px; 
 }
 
 /* Large tablets & desktops */
@@ -31,11 +32,12 @@
 /* Medium screens like tablets */
 @media (max-width: 998px) {
     .slider-container {
-        padding-top: 4%; 
+        padding-top: 30px; 
     }
 
     .logo-carousel-image img {
         width: 100%; 
+        padding: 15px; 
     }
 }
 

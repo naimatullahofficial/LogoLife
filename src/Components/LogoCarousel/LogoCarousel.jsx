@@ -14,7 +14,7 @@ import "./LogoCarousel.css"
 
 export const LogoCarousel = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 7,
     slidesToScroll: 1,
