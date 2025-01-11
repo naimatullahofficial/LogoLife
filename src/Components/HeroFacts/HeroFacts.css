@@ -131,13 +131,15 @@
         
 
         .fact-item h2 {
-            font-size: 25px;
+            font-size: 16px;
         }
         
         .fact-item p {
-            font-size: 11px;
+            font-size: 8px;
+            line-height: 15px;
             text-align: center;
             width: 100px;
+            color: #08313A;
             
         }
 
@@ -151,6 +153,8 @@
 
     .hero-facts-container {
         margin-top: -60px;
+        background-color: white;
+        border: 1.5px solid #8F834F;
     }
 
 
@@ -158,6 +162,7 @@
         font-size: 9px;
         text-align: center;
         width: 100px;
+        color: #08313A;
         
         
     }

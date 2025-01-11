@@ -28,5 +28,4 @@ export const HeroFacts = () => {
   )
 }
 
-
 export default HeroFacts;
