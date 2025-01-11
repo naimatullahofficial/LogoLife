@@ -24,6 +24,7 @@ a{
 
 .main-container {
     padding: 0 10%;
+    overflow-x: hidden;
 }
 
 
