@@ -23,7 +23,7 @@ export const App = () => {
       <TestimonialSection />
       <ExpertsSection />
       <AdvantageSection />
-      <CalendlySection />
+      {/* <CalendlySection /> */}
     </div>
   )
 }
