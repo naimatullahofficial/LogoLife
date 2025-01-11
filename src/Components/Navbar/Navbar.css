@@ -14,9 +14,8 @@
 }
 
 .navbar img {
-    
-    width: 100%;
     max-width: 12%;
+    height: auto;
     margin: 20px 0;
 }
 
@@ -90,7 +89,7 @@
 
 @media (max-width: 900px) {
        .navbar img {
-        max-width: 18%;
+        max-width: 14%;
     }
     
 }
