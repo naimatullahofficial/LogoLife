@@ -14,7 +14,9 @@
 }
 
 .navbar img {
-    width: 180px;
+    
+    width: 100%;
+    max-width: 12%;
     margin: 20px 0;
 }
 
@@ -40,7 +42,7 @@
    }
 
    .navbar img {
-    width: 180px;
+    max-width: 12%;
 }
 }
 
@@ -52,7 +54,7 @@
        }
 
        .navbar img {
-        width: 160px;
+        max-width: 14%;
     }
 
     .dark-btn {
@@ -73,7 +75,7 @@
        }
 
        .navbar img {
-        width: 160px;
+        max-width: 14%;
     }
 
     .dark-btn {
@@ -85,6 +87,15 @@
     
 }
 
+
+@media (max-width: 900px) {
+       .navbar img {
+        max-width: 18%;
+    }
+    
+}
+
+
 /* Tablet (portrait) */
 @media (max-width: 768px) {
     .navbar {
@@ -92,7 +103,7 @@
        }
 
        .navbar img {
-        width: 140px;
+        max-width: 35%;
     }
     .dark-btn {
 
@@ -109,9 +120,6 @@
     .navbar {
         padding: 0 6%;
        }
-
-    .navbar img {
-    width: 140px;
 }
 
 .dark-btn {
@@ -119,5 +127,4 @@
     display: none;
 
 }
-    
-}
+
