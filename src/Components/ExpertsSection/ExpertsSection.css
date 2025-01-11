@@ -57,7 +57,7 @@
 }
 
 .universties-list {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 0 5%;
     display: flex;
     justify-content: center;
@@ -69,7 +69,7 @@
 .universties-list img {
     -webkit-user-drag: none;
     pointer-events: none;
-    width: 45%;
+    width: 50%;
 }
 
 
@@ -118,7 +118,7 @@
 
     .universties-list img {
         margin-top: 0;
-        width: 80%;
+        width: 100%;
     }
 
 
@@ -134,7 +134,7 @@
 
     .universties-list img {
         margin-top: 40px;
-        width: 90%;
+        width: 100%;
     }
 
   

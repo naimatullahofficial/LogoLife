@@ -224,6 +224,10 @@
 /* Tablet (portrait) */
 @media (max-width: 768px) {
 
+    .experts-slider-container {
+        padding-bottom: 30px;
+    }
+
     .experts-slider-container .slick-arrow.slick-prev {
         top: 105%;
         left: 6%;
