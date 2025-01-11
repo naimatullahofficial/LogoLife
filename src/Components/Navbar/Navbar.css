@@ -95,7 +95,9 @@
        }
 
        .navbar img {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
+        height: auto; /* Maintains aspect ratio */
     }
 
     .logo-container {
@@ -108,4 +110,11 @@
     }
 
    
+}
+
+@media (min-resolution: 192dpi), 
+       (min-device-pixel-ratio: 2) {
+    .navbar img {
+        content: url('../../assets/logo-life.svg'); /* Replace with high-res SVG path */
+    }
 }
