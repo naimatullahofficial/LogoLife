@@ -11,9 +11,8 @@
 
 
 }
-
 .navbar img {
-    width: 100%;
+    width: 180px;
     margin: 20px 0;
 }
 
@@ -43,7 +42,7 @@
    }
 
    .navbar img {
-    width: 14%;
+    width: 180px;
 }
 }
 
@@ -55,7 +54,7 @@
        }
 
        .navbar img {
-        width: 14%;
+        width: 180px;
     }
 
     .dark-btn {
@@ -76,7 +75,7 @@
        }
 
        .navbar img {
-        width: 14%;
+        width: 180px;
     }
 
     .dark-btn {
@@ -96,12 +95,12 @@
 
        .navbar img {
         width: auto;
-        max-width: 100%;
+        max-width: 180px;
         height: auto; /* Maintains aspect ratio */
     }
 
     .logo-container {
-        width: 40%;
+        width: 50%;
     }
     .dark-btn {
 
