@@ -4,7 +4,7 @@ import mentorship from "../../assets/mentorship.svg";
 import mentorshipHover from "../../assets/mentorship-hover.svg";
 import internship from "../../assets/internship.svg";
 import internshipHover from "../../assets/internship-hover.svg";
-import codingimg from "../../assets/coding.svg";
+import codingimg from "../../assets/codingImg.svg";
 import codingHover from "../../assets/coding-hover.svg";
 import portfolio from "../../assets/tech.svg";
 import portfolioHover from "../../assets/tech-hover.svg";
