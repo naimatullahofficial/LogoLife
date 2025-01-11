@@ -3,11 +3,11 @@
     width: 100%;  
     max-width: 65%; 
     height: auto; 
+    transition: all 0.3s ease-in-out;
 }
 
 .slider-container {
     padding: 2%; 
-    overflow: hidden; 
 }
 
 /* Large tablets & desktops */
