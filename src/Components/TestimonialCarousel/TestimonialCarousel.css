@@ -1,6 +1,6 @@
 .testimonial-slider-container{
     padding: 0 6%;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .testimonial-section{
@@ -145,7 +145,8 @@
 @media (max-width: 998px) { 
 
     .testimonial-slider-container{
-        padding: 0 5% 8% 0;
+        padding: 0 5% 8% 5%;
+        overflow-y: hidden;
     }
 
     .testimonial-carousel{
