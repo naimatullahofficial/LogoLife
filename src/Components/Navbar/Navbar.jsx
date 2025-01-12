@@ -5,9 +5,9 @@ import "./Navbar.css"
 const Navbar = () => {
   useEffect(()=> {
 
-    window.addEventListener("scroll", ()=>{
+    window.addEventListener("scroll", (e)=>{
       const navbar = document.querySelector(".navbar")
-      window.scrollY > 200 ? navbar.style.top = "0%" : navbar.style.top = "-10%"
+      window.scrollY > 120 ? navbar.style.top = "0%" : navbar.style.top = "-100%"
       console.log("scrolled");
       
     })
