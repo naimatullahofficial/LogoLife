@@ -225,7 +225,7 @@
 @media (max-width: 768px) {
 
     .experts-slider-container {
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
 
     .experts-slider-container .slick-arrow.slick-prev {
@@ -265,6 +265,8 @@
 .carousel-content ul li {
     font-size: 14px;
 }
+
+.universties-list {margin-top: 0px;}
    
 }
 
